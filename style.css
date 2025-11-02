@@ -1,0 +1,484 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+  *{
+      margin:0px;
+      padding:0px;
+        box-sizing:border-box;
+              font-family: "Fira Sans", sans-serif;
+    
+            scroll-behavior:smooth;
+  /*  */
+          }
+  header{
+  background-color: rgb(230, 230, 230);
+            z-index:999;
+            position:fixed;
+                  display:flex;
+              justify-content:space-between;
+                    width:100%;
+                        align-items: center;
+                            padding:10px 200px ;
+  }
+  .logo{
+      text-decoration:none;
+        text-transform:uppercase;
+      color: rgb(84, 84, 211);
+      font-weight:700;
+      font-size:1.8em;
+  }
+  nav a{
+    color: blue;
+        text-decoration:none;
+            font-size:1.1em;
+                font-weight:500;
+                  padding-left:30px;
+  }
+  .social-icons a i {
+    font-size: 30px;
+    
+    
+    margin: 10px;
+    transition: 0.3s;
+  }
+  nav a:hover{
+    color: rgb(235, 233, 233);
+  }
+  section{
+    padding:100px 200px ;
+  }
+  .main{
+    min-width:100%;
+    min-height:100vh; ;
+    display:flex;
+      align-items:center;
+      background-image:url("https://t4.ftcdn.net/jpg/05/50/95/87/360_F_550958748_OeGcRonEUNoVhd0wjd9zSEMhLFIGO9Bt.jpg");
+      background-repeat:no-repeat;
+    background-size:cover;
+      background-position:center;
+          background-attachment:fixed;
+  }
+  .main h2{
+    color: #fff;
+      font-size:2em;
+              font-weight: 700;
+  }
+  .main h2 span{
+        display: inline-block;
+        margin:10px ;
+    color: rgb(27, 57, 228);
+          font-size:3em;
+                font-weight:600;
+  } 
+  .main h3{
+  margin-top:10px; 
+  letter-spacing:1px; color: #fff;
+  font-size:2em;
+    font-weight:700;
+    margin-bottom:30px; 
+  }
+
+  .main-btn{
+    text-decoration:none;
+    color: #fff;
+  background-color:#3a6cf4;
+    font-size:1.1em;
+        font-weight:600;
+          display:inline-block;
+          padding:0.9375em 2.1875em;
+              letter-spacing:1px;
+                border-radius:15px;
+                      margin-bottom:40px;
+                          transition:0.7s ease;
+  }
+  .main-btn:hover{
+    background-color:#0a49f6;
+        transform:scale(1.1);
+  }
+  /* الجزء الثاني من الموقع */
+  .title{
+      display:flex;
+        justify-content:center;
+    color: #0a49f6;
+    font-size:2.2em;
+      font-weight:800;
+        margin-bottom:30px;
+  }
+  .content{
+    display:flex;
+      justify-content: center;
+        flex-direction:row;
+          flex-wrap:wrap;
+  }
+  .card{
+    background-color: #ffffff;
+      width:350px;
+        box-shadow:0 5px 25px rgba(1 1 1/15%);
+            border-radius:10px;
+                padding:40px 30px;
+                margin:20px;
+                  transition:0.7s ease;
+                  min-height:420px;
+  }
+  .card:hover{
+      transform:scale(1.1);
+  }
+  .icon {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 150px;            
+  }
+  .icon i {
+    font-size:100px;
+    color: rgb(29, 121, 240);
+  }
+  .icon2 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 150px;     
+          color: rgb(29, 121, 240);
+  }
+  .icon2 i {
+    font-size: 100px;
+    
+    color: rgb(29, 121, 240);
+  }
+  .card2{
+    background-color: #ffffff;
+      width:350px;
+        box-shadow:0 5px 25px rgba(1 1 1/15%);
+            border-radius:10px;
+                padding:40px 30px;
+                margin:20px;
+                  transition:0.7s ease;
+                  min-height:420px;
+  }
+  .card2:hover{
+      transform:scale(1.1);
+  }
+  .icon3 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 150px;     
+          color: rgb(29, 121, 240);
+  }
+  .icon3 i {
+    font-size: 100px;
+    color: rgb(29, 121, 240);
+  }
+  .card3{
+    background-color: #ffffff;
+      width:21.25em;
+        box-shadow:0 5px 25px rgba(1 1 1/15%);
+            border-radius:10px;
+                padding:40px 30px;
+                margin:20px;
+                  transition:0.7s ease;
+                  min-height:420px;
+  }
+  .card3:hover{
+      transform:scale(1.1);
+  }
+
+  h3 span{
+    color: #3a6cf4;
+        align-items:center;
+  }
+  .Projects{
+    background-color: rgb(10, 7, 31);
+  }
+  .Projects content{
+    margin-top:30px;
+  }
+  .projects-card{
+    border:5px solid #ffffff;
+      min-height:14em;
+      width:23em;
+              overflow: hidden;
+              margin:20px;
+                    border-radius:10px;
+                        transition:0.7s ease;
+                        background-color: #ffffff;
+  }
+  .projects-card:hover{
+    transform:scale(1.1);
+  }
+  .imga img{
+  width:100%;
+  }
+  .projects-card .imga img:hover{
+    opacity:0.9;
+  }
+  .projects-info{
+    padding:1em;
+  }
+  .projects-server{
+    font-size:1em;
+    color: #000000;
+  }
+  .projects-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800px;
+    margin-top: 10px;
+
+  }
+  .projects-title a{
+    text-decoration: none;
+        color: #0a49f6;
+        font-weight: 800;
+            font-size: large;
+  }
+  .projects-title a:hover{
+    color: black;
+  }  
+  /* 2 */
+  .Projects2{
+    background-color: rgb(10, 7, 31);
+  }
+  .Projects2 content{
+    margin-top:30px;
+  }
+  .projects-card2{
+    border:5px solid #ffffff;
+      min-height:14em;
+      width:23em;
+              overflow: hidden;
+              margin:20px;
+                    border-radius:10px;
+                        transition:0.7s ease;
+                        background-color: #ffffff;
+  }
+  .projects-card2:hover{
+    transform:scale(1.1);
+  }
+  .imga2 img{
+  width:100%;
+  }
+  .projects-card2 .imga img:hover{
+    opacity:0.9;
+  }
+  .projects-info2{
+    padding:1em;
+  }
+  .projects-server2{
+    font-size:1em;
+    color: #000000;
+  }
+  .projects-title2{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800px;
+    margin-top: 10px;
+
+  }
+  .projects-title2 a{
+    text-decoration: none;
+        color: #0a49f6;
+        font-weight: 800;
+            font-size: large;
+  }
+  .projects-title2 a:hover{
+    color: black;
+  }
+
+
+  .Projects3{
+    background-color: rgb(10, 7, 31);
+  }
+  .Projects3 content{
+    margin-top:30px;
+  }
+  .projects-card3{
+    border:5px solid #ffffff;
+      min-height:14em;
+      width:23em;
+              overflow: hidden;
+              margin:20px;
+                    border-radius:10px;
+                        transition:0.7s ease;
+                        background-color: #ffffff;
+  }
+  .projects-card3:hover{
+    transform:scale(1.1);
+  }
+  .imga3 img{
+  width:100%;
+  }
+  .projects-card3 .imga img:hover{
+    opacity:0.9;
+  }
+  .projects-info3{
+    padding:1em;
+  }
+  .projects-server3{
+    font-size:1em;
+    color: #000000;
+  }
+  .projects-title3{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800px;
+    margin-top: 10px;
+
+  }
+  .projects-title3 a{
+    text-decoration: none;
+        color: #0a49f6;
+        font-weight: 800;
+            font-size: large;
+  }
+  .projects-title3 a:hover{
+    color: black;
+  }
+
+
+  .icon5{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 150px;     
+          color: rgb(75, 174, 255);
+  }
+  .icon5i{
+    font-size:100px;
+  }
+
+
+
+  .phone .title span{
+    color: #000000;
+  }
+  .card6{
+    background-color: #ffffff;
+      width:300px;
+        box-shadow:0 5px 25px rgba(1 1 1/15%);
+            border-radius:10px;
+                padding:40px;
+                margin:20px;
+                  transition:0.7s ease;
+                  flex-wrap:wrap;
+                  justify-content:center;
+  }
+  .card6:hover{
+      transform:scale(1.1);
+  }
+  .footer{
+  background-color: #081538;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding:2em;
+  }
+  /* شاشات الموبايل */
+  /* ✅ الأساسيات */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ✅ الحاويات العامة */
+  section {
+    padding: 5vh 10vw; /* بدل px عشان يناسب أي شاشة */
+  }
+
+  /* ✅ الكروت */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    flex: 1 1 300px; /* الكارت ياخد عرض مرن */
+    max-width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  /* ✅ الميديا كويري */
+
+  /* شاشات التابلت */
+  @media (max-width: 1024px) {
+    header {
+      padding: 10px 50px;
+    }
+
+    .main h2 {
+      font-size: 1.8em;
+    }
+
+    .main h3 {
+      font-size: 1.4em;
+    }
+  }
+
+  /* شاشات الموبايل */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px 0;
+    }
+
+    .main h2 {
+      font-size: 1.5em;
+    }
+
+    .main h2 span {
+      font-size: 2em;
+    }
+
+    .main h3 {
+      font-size: 1.2em;
+    }
+
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      max-width: 90%;
+    }
+  }
+
+  /* شاشات الموبايل الصغيرة جدًا */
+  @media (max-width: 480px) {
+    .main h2 {
+      font-size: 1.2em;
+    }
+
+    .main h2 span {
+      font-size: 1.5em;
+    }
+
+    .main h3 {
+      font-size: 1em;
+    }
+  }
+
