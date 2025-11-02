@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://ezata5557-beep.github.io/Abdo-ezzat/sitemap.xml
